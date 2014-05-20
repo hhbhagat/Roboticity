@@ -5,6 +5,8 @@ import java.io.PrintStream;
 
 public class RoboCommand {
 
+    RoboThread rThread = new RoboThread();
+
     public RoboCommand() {
         robot = null;
         cmd = new RobotCMDConverter();

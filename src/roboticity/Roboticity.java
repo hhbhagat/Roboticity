@@ -9,6 +9,7 @@ public class Roboticity {
     }
 
     public static void main(String args[]) {
+        new StopKey().listen();
         Robot robot = null;
         try {
             robot = new Robot();
